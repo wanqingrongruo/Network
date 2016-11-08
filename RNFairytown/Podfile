@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+ inhibit_all_warnings!
+ platform :ios, '9.0'
+
+target 'RNFairytown' do
+  use_frameworks!
+
+  pod 'Alamofire'
+
+  # Pods for RNFairytown
+
+  target 'RNFairytownTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RNFairytownUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
